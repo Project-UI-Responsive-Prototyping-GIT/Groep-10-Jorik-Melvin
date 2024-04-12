@@ -3,11 +3,11 @@
         <h1 class="menu-kop">Contact</h1>
         <article class="menu-flex">
             <img src="img/svg/phone (1).svg" class="icon">
-            <p class="menu-tekst">+31 6 12345678</p>
+            <p class="menu-tekst menu-kleinere-tekst">+31 6 12345678</p>
         </article>
         <article class="menu-flex">
             <img src="img/svg/mail.svg" class="icon">
-            <p class="menu-tekst">chilliesgalore@gmail.com</p>
+            <p class="menu-tekst menu-kleinere-tekst">chilliesgalore@gmail.com</p>
         </article>
     </section>
     <section class="menu-boxen grid-vlak2">
@@ -24,15 +24,15 @@
     <section class="menu-boxen grid-vlak3">
         <h1 class="menu-kop">Socials</h1>
         <article class="menu-flex">
-            <img src="img/svg/twitter.svg" class="socials">
+            <a href="https://www.x.com/"><img src="img/svg/twitter.svg" class="socials"></a>
             <p class="menu-tekst">ChilliesGalore</p>
         </article>
         <article class="menu-flex">
-            <img src="img/svg/instagram.svg" class="socials">
+            <a href="https://www.instagram.com/"><img src="img/svg/instagram.svg" class="socials"></a>
             <p class="menu-tekst">ChilliesGalore</p>
         </article>
         <article class="menu-flex">
-            <img src="img/svg/facebook.svg" class="socials">
+            <a href="https://www.facebook.com/"><img src="img/svg/facebook.svg" class="socials"> </a>
             <p class="menu-tekst">ChilliesGalore</p>
         </article>
     </section>

@@ -20,7 +20,7 @@
 
   ?>
   <main id="grid-container-vacature">
-  <section class="home-ontdek-ons grid-item">
+  <section class="home-ontdek-ons grid-blok-1">
     <div class="home-paragraph1">
       <article class="home-text-ontdenk-ons">
         <h1 class="home-titel-ontdenk-ons"> Werken bij ons </h1>
@@ -33,7 +33,7 @@
       </article>
     </div>
   </section>
-  <section class="home-ontdek-ons grid-item">
+  <section class="home-ontdek-ons grid-blok-2">
     <div class="home-paragraph1">
       <article class="home-img-ontdenk-ons">
         <img class="planten-en-licht" src="img/restaurantingezoomd.PNG">
@@ -46,7 +46,7 @@
       </article>
     </div>
   </section>
-  <section class="home-ontdek-ons grid-item">
+  <section class="home-ontdek-ons grid-blok-3">
     <div class="home-paragraph1">
       <article class="home-text-ontdenk-ons">
         <h1 class="home-titel-ontdenk-ons"> Chef </h1>
@@ -54,12 +54,12 @@
         <p class="home-info-text"> Als jij het leuk vindt om als chef voor Chillie's Galore aan de slag te gaan, twijfel dan niet langer!  Vul dan het onderstaande formulier in en wie weet word jij onze nieuwe collega! </p>
       </article>
       <article class="home-img-ontdenk-ons">
-        <img class="general-man-aan-tafel" src="img/chef.PNG">
+        <img class="general-man-aan-tafel chef-vacature-none" src="img/chef.PNG">
         <img class="general-man-aan-tafel afbeelding-vacature-block" src="img/vacature/chef.jpeg">
       </article>
     </div>
   </section>
-  <section class="home-ontdek-ons grid-item">
+  <section class="home-ontdek-ons grid-blok-4">
     <div class="home-paragraph1">
       <article class="home-img-ontdenk-ons">
         <img class="planten-en-licht" src="img/restaurantingezoomd.PNG">

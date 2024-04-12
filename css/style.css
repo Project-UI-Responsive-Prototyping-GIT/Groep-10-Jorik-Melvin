@@ -422,108 +422,6 @@ HTML,body {
     margin: 0;
 }
 
-
-
-/* ///GALLERY PAGE */
-
-#gallery-page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  padding-top: 7vh;
-  padding-bottom: 7vh;
-  min-height: 120vh;
-}
-
-#gallery-vak {
-  width: 12vw;
-}
-
-#gallery-grid {
-  display: grid;
-  grid-template-columns: 20vw 20vw 22vw;
-  grid-template-rows: 38vh 38vh 38vh 38vh;
-  column-gap: 10px;
-  row-gap: 10px;
-}
-
-#grid-item-1 {
-  grid-column: 1 / 3;
-  grid-row: 1;
-  background-image: url(../img/gallery/foto1.jpg);
-  background-size: cover;
-}
-
-#grid-item-2 {
-  grid-column: 3;
-  grid-row: 1;
-  background-image: url(../img/gallery/foto2.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-#grid-item-3 {
-  grid-column: 1;
-  grid-row: 2;
-  background-image: url(../img/gallery/foto3.jpg);
-  background-size: cover;
-}
-
-#grid-item-4 {
-  grid-column: 2;
-  grid-row: 2;
-  background-image: url(../img/gallery/foto4.jpg);
-  background-size: cover;
-}
-
-#grid-item-5 {
-  grid-column: 3;
-  grid-row: 2;
-  background-image: url(../img/gallery/foto5.jpg);
-  background-size: cover;
-}
-
-#grid-item-6 {
-  grid-column: 1;
-  grid-row: 3 / 5;
-  background-image: url(../img/gallery/chef.jpg);
-  background-size: cover;
-}
-
-#grid-item-7 {
-  grid-column: 2;
-  grid-row: 3;
-  width: 22vw;
-  background-image: url(../img/gallery/foto6.jpg);
-  background-size: cover;
-}
-
-#grid-item-8 {
-  grid-column: 3;
-  grid-row: 3;
-  margin-left: 30px;
-  background-image: url(../img/gallery/foto7.jpg);
-  background-size: cover;
-}
-
-#grid-item-9 {
-  grid-column: 2;
-  grid-row: 4;
-  background-image: url(../img/gallery/foto8.jpg);
-  background-size: cover;
-}
-
-#grid-item-10 {
-  grid-column: 3;
-  grid-row: 4;
-  background-image: url(../img/gallery/foto9.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-
 body {
   background-color: var(--main-background-collor);
 }
@@ -1032,7 +930,7 @@ body {
     grid-template-rows: 12vh;
     align-items: flex-start;
     padding-top: 5vh;
-    height: 13vh;
+    height: 20vh;
   }
 
   .grid-vlak {
@@ -1059,6 +957,10 @@ body {
 
   .menu-tekst {
     font-size: 0.8em;
+  }
+
+  .menu-kleinere-tekst {
+    font-size: 0.75rem;
   }
 
   .icon {
@@ -1499,6 +1401,58 @@ input {
   display: none;
 }
 
+/* ABOUT PAGINA */
+#about-onstaat-text {
+  font-size: 1.5rem;
+  width: 80vw;
+}
+
+#about-video2 {
+  width: 100%;
+}
+
+.reviews {
+  width: 40vw;
+}
+
+#reviews-text {
+  font-size: 1rem;
+  width: 40vw;
+  }
+
+.about-reviews-title-text {
+  font-size: 2rem;
+}
+
+.about-vestigingen-title-text {
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+.vestigingen-bar {
+  margin-left: 20px;
+}
+
+#about-vestigingen-beschrijving {
+  font-size: 1rem;
+  margin-left: 20px;
+}
+
+.about-locatie {
+  font-size: 1rem;
+}
+
+#about-vestigingen-map {
+  margin-top: 50px;
+}
+
+#about-onstaan-title {
+  font-size: 2rem;
+}
+
+.about-bar {
+  margin-left: -90px;
+}
 }
 
 
@@ -1802,7 +1756,7 @@ input {
     justify-content: space-evenly;
     align-items: flex-start;
     padding-top: 5vh;
-    height: 25vh;
+    height: 30vh;
     background-color: var(--secondary);
   }
 
@@ -1830,13 +1784,14 @@ input {
   }
   
   .menu-kop {
-    font-size: 2em; 
+    font-size: 1.8em; 
     font-family: var(--text-font-normal);
     font-weight: bolder;
     color: var(--text-color-normal);
     margin: 0;
     padding-bottom: 10px;
   }
+
   
   .menu-flex {
     display: flex;
@@ -1856,28 +1811,101 @@ input {
   
   .menu-tekst {
       font-family: var(--text-font-normal);
-      font-size: 1.7rem;
+      font-size: 1.3rem;
       color: var(--text-color-normal);
       text-align: center;
       margin: 0;
   }
 
+  .menu-kleinere-tekst {
+    font-size: 0.9rem;
+  }
   /* GALLERY PAGE */
 
 #gallery-page {
-  padding-top: 9vh;
-  padding-bottom: 9vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  height: 300vh;
+}
+
+#gallery-vak {
+  width: 12vw;
 }
 
 #gallery-grid {
   display: grid;
-  grid-template-columns: 20vw 20vw;
-  grid-template-rows: 18vh 22vh 22vh 22vh 22vh 26vh;
-  column-gap: 8px;
-  row-gap: 8px;
+  grid-template-columns: 40vw 40vw;
+  grid-template-rows: 38vh 38vh 38vh 38vh 38vh 38vh;
+  column-gap: 10px;
+  row-gap: 10px;
 }
 
-#grid-item1{
+#grid-item-1 {
+  grid-area: 1 / 1;
+  background-image: url(../img/gallery/foto1.jpg);
+  background-size: cover;
+}
+
+#grid-item-2 {
+  grid-area: 1 / 2;
+  background-image: url(../img/gallery/foto2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#grid-item-3 {
+  grid-area: 2 / 1;
+  background-image: url(../img/gallery/foto3.jpg);
+  background-size: cover;
+}
+
+#grid-item-4 {
+  grid-area: 2 / 2;
+  background-image: url(../img/gallery/foto4.jpg);
+  background-size: cover;
+}
+
+#grid-item-5 {
+  grid-area: 3 / 1;
+  background-image: url(../img/gallery/foto5.jpg);
+  background-size: cover;
+}
+
+#grid-item-6 {
+  grid-column: 1;
+  grid-row: 4 / 6;
+  background-image: url(../img/gallery/chef.jpg);
+  background-size: cover;
+}
+
+#grid-item-7 {
+  grid-area: 3 / 2;
+  background-image: url(../img/gallery/foto6.jpg);
+  background-size: cover;
+}
+
+#grid-item-8 {
+  grid-area: 4 / 2;
+  background-image: url(../img/gallery/foto7.jpg);
+  background-size: cover;
+}
+
+#grid-item-9 {
+  grid-area: 5 / 2;
+  background-image: url(../img/gallery/foto8.jpg);
+  background-size: cover;
+}
+
+#grid-item-10 {
+  grid-column: 1 / 3;
+  grid-row: 6;
+  background-image: url(../img/gallery/foto9.jpg);
+  background-size: cover;
   background-position: center;
 }
 
@@ -2233,6 +2261,80 @@ input {
     .general-logo {
       display: none;
     }
+
+    .chef-vacature-none {
+      display: none;
+    }
+
+    .review-profile-icon {
+      width: 5vw;
+    }
+
+    .review-man-aan-tafel {
+      width: 22.5vw;
+      margin-left: 10vw;
+    }
+
+    .home-info-text-kleinere-versie {
+      font-size: 1.2rem;
+    }
+
+    .home-info-text-kleinere-versie2 {
+      font-size: 0.9rem;
+    }
+
+/* ABOUT PAGINA */
+#about-onstaat-text {
+  font-size: 1.5rem;
+  width: 80vw;
+}
+
+#about-video2 {
+  width: 100%;
+}
+
+.reviews {
+  width: 40vw;
+}
+
+#reviews-text {
+  font-size: 1rem;
+  width: 40vw;
+  }
+
+.about-reviews-title-text {
+  font-size: 2rem;
+}
+
+.about-vestigingen-title-text {
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+.vestigingen-bar {
+  margin-left: 20px;
+}
+
+#about-vestigingen-beschrijving {
+  font-size: 1rem;
+  margin-left: 20px;
+}
+
+.about-locatie {
+  font-size: 1rem;
+}
+
+#about-vestigingen-map {
+  margin-top: 50px;
+}
+
+#about-onstaan-title {
+  font-size: 2rem;
+}
+
+.about-bar {
+  margin-left: -90px;
+}
     }
 
 @media screen and (min-width: 769px){
@@ -2398,6 +2500,7 @@ input {
   }
 
   #alinea-2 {
+    opacity: 95%;
     display: flex;
     grid-area: 2 / 1;
     justify-content: center;
@@ -3256,5 +3359,30 @@ input {
   
     #arrangement-button:hover {
       cursor: pointer;
+    }
+
+    /* Vacature Pagina */
+
+    #grid-container-vacature {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 40vh 40vh 40vh 40vh 150vh;
+      row-gap: 20vh;
+    }
+
+    .grid-blok-1 {
+      grid-area: 1 / 1;
+    }
+
+    .grid-blok-2 {
+      grid-area: 2 / 1;
+    }
+
+    .grid-blok-3 {
+      grid-area: 3 / 1;
+    }
+
+    .grid-blok-4 {
+      grid-area: 4 / 1;
     }
   }

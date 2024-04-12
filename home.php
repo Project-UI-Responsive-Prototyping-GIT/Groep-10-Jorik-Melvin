@@ -23,9 +23,9 @@
   <section class="home-ontdek-ons grid-item">
     <div class="home-paragraph1">
       <article class="home-text-ontdenk-ons">
-        <h1 class="home-titel-ontdenk-ons"> Ontdenk Ons </h1>
+        <h1 class="home-titel-ontdenk-ons"> Ontdek Ons </h1>
         <div class="general-bar"> </div>
-        <p class="home-info-text"> Ontdek de ware smaken van Mexico bij "Chillie's Galore"! Onze passie voor authentiek Mexicaans eten begon met liefde voor traditie en kwaliteit. Kom langs en geniet van de rijke culinaire ervaring die we te bieden hebben. </p>
+        <p class="home-info-text home-info-text-kleinere-versie"> Ontdek de ware smaken van Mexico bij "Chillie's Galore"! Onze passie voor authentiek Mexicaans eten begon met liefde voor traditie en kwaliteit. Kom langs en geniet van de rijke culinaire ervaring die we te bieden hebben. </p>
         <img class="general-logo" src="img/header-logo.png">
       </article>
       <article class="home-img-ontdenk-ons">
@@ -60,7 +60,7 @@
       <article class="home-text-ontdenk-ons">
         <h1 class="home-titel-ontdenk-ons"> About </h1>
         <div class="general-bar"> </div>
-        <p class="home-info-text"> In Mexico-Stad ontstond een restaurant uit liefde voor de Mexicaanse keuken. Met kleurrijke gerechten en warme gastvrijheid veroverde het al snel harten wereldwijd. </p>
+        <p class="home-info-text home-info-text-kleinere-versie"> In Mexico-Stad ontstond een restaurant uit liefde voor de Mexicaanse keuken. Met kleurrijke gerechten en warme gastvrijheid veroverde het al snel harten wereldwijd. </p>
         <img class="general-logo" src="img/header-logo.png">
       </article>
     </div>
@@ -76,7 +76,7 @@
       <article class="home-text-ontdenk-ons">
         <h1 class="home-titel-ontdenk-ons"> Lorum </h1>
         <div class="general-bar"> </div>
-        <p class="home-info-text2"> Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. </p>
+        <p class="home-info-text2 home-info-text-kleinere-versie2"> Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. </p>
       </article>
     </div>
   </section>
