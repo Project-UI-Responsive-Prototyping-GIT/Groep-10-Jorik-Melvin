@@ -2,11 +2,11 @@
   <html lang="nl">
   <head>
   <meta charset="utf-8">
-  <meta name="description" content= "In Mexico-Stad ontstond een restaurant uit liefde voor de Mexicaanse keuken.">
-  <meta name="keywords" content="ChilliesGalore, Chillies, Galore, Chillies Galore, Restaurant, Dining, Eating, Spicy, Mexican, Mexico-Stad"> 
+  <meta name="description" content= "Reviews, het eten is erg lekker, bij Chillie's Galore stellen wij alle voremn van feedback op prijs, de bediening is erg vriendelijk, de bediening is erg snel met het openemen van bestellingen. Keuken doet er niet lang over om het gerecht te bereiden.">
+  <meta name="keywords" content="reviews"> 
   <meta name="author" content="J. van Leeuwen">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Chillie's Galore</title>
+  <title>Review</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="lib/slideshow.js" defer></script>
   <!-- Icon Linksboven Tabblad -->

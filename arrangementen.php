@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="utf-8">
+  <meta name="description" content= "Arrangementen bij Chillie's Galore, Taco Tuesday als speciale aanbieding, een verscheidenheid aan taco-vullingen zoals gekruid gehakt, gekruid gehakt, een taco-bar waar gasten hun eigen tacos kunnen samenstellen, bekijk arrangement">
+  <meta name="keywords" content="Arrangementen, Taco Tuesday, taco-bar, taco vullingen"> 
+  <meta name="author" content="Melvin Olsthoorn">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arrangementen</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="lib/slideshow.js"></script>
 </head>
 <body>
 <?php 
 
-  include 'header.php';
+    include 'header.php';
 
 ?>
 <main id="arrangementen-main">
