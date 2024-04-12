@@ -1871,7 +1871,7 @@ input {
 
 #gallery-grid {
   display: grid;
-  grid-template-columns: 45vw 45vw;
+  grid-template-columns: 20vw 20vw;
   grid-template-rows: 18vh 22vh 22vh 22vh 22vh 26vh;
   column-gap: 8px;
   row-gap: 8px;
@@ -2985,7 +2985,7 @@ input {
 
 
 .container {
-  min-width: 50vw;
+  width: 50vw;
   background: var(--form-color);
   padding: 25px 30px;
   border-radius: 5px;
