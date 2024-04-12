@@ -2,11 +2,11 @@
   <html lang="nl">
   <head>
   <meta charset="utf-8">
-  <meta name="description" content= "In Mexico-Stad ontstond een restaurant uit liefde voor de Mexicaanse keuken.">
-  <meta name="keywords" content="ChilliesGalore, Chillies, Galore, Chillies Galore, Restaurant, Dining, Eating, Spicy, Mexican, Mexico-Stad"> 
+  <meta name="description" content= "Vacature, Op zoek naar de leukste baan?, Bekijk onze vacatures, Lijk het jou leuk om bij chillie's galore te werken, Werken bij ons, Ober, Chef, Restaurant manager, Vacature formulier, wil jij onze nieuwe restaurant manager worden?">
+  <meta name="keywords" content="Vacature, Werken bij ons, Ober, Chef, Restaurant manager, Vacature formulier"> 
   <meta name="author" content="J. van Leeuwen">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Chillie's Galore</title>
+  <title>Vacature</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="lib/slideshow.js" defer></script>
   <!-- Icon Linksboven Tabblad -->
