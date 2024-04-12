@@ -48,24 +48,24 @@
 </section>
 <!-- Vestigingen -->
 <section id="about-vestigingen" class="grid-item">
-    <div>
+    <div id="vestigingen-box">
         <h1 class="about-vestigingen-title-text"> Vestigingen </h1>
         <div class="vestigingen-bar"></div>
         <p id="about-vestigingen-beschrijving"> Chillie’s Galore heeft drie vestigingen verspreid over Nederland. </p>
-    <article id="about-vestigingen-locaties">
-        <div class="about-denhaag">
-            <img class="about-vestigingen-pin" src="img/pin.png">
-            <p class="about-locatie"> Den Haag</p>
-        </div>
-        <div class="about-denhaag">
-            <img class="about-vestigingen-pin" src="img/pin.png">
-            <p class="about-locatie"> Utrecht </p>
-        </div>
-        <div class="about-denhaag">
-            <img class="about-vestigingen-pin" src="img/pin.png">
-            <p class="about-locatie"> Breda </p>
-        </div>
-    </article>
+        <article id="about-vestigingen-locaties">
+            <div class="about-denhaag">
+                <img class="about-vestigingen-pin" src="img/pin.png">
+                <p class="about-locatie"> Den Haag</p>
+            </div>
+            <div class="about-denhaag">
+                <img class="about-vestigingen-pin" src="img/pin.png">
+                <p class="about-locatie"> Utrecht </p>
+            </div>
+            <div class="about-denhaag">
+                <img class="about-vestigingen-pin" src="img/pin.png">
+                <p class="about-locatie"> Breda </p>
+            </div>
+        </article>
     </div>
     <div>
         <article id="vestigingen-map">
@@ -81,6 +81,7 @@
         <h1 class="about-reviews-title-text"> Reviews </h1>
         <div class="vestigingen-bar"></div>
         <p id="reviews-text"> Gasten prijzen het restaurant van Chef Diego voor zijn ongeëvenaarde Mexicaanse smaken en hartelijke gastvrijheid. Met lof voor de verfijnde gerechten die de tradities van Mexico vieren, blijven de lovende recensies binnenstromen. </p>
+        <p id="reviews-text2" onclick="window.location.href = 'review.php'">Lees meer...</p>
     </div>
     <div id="reviews-div2">
         <img class="reviews" src="img/review1.PNG">

@@ -1,4 +1,4 @@
-<footer style="height: 28vh" id="menu-voet">
+<footer id="menu-voet">
     <section class="menu-boxen grid-vlak">
         <h1 class="menu-kop">Contact</h1>
         <article class="menu-flex">

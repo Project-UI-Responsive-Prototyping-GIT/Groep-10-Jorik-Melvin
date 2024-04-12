@@ -363,7 +363,6 @@ HTML,body {
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-evenly;
   align-items: center;
-  height: 600px;
   background-color: var(--secondary);
 }
 
@@ -1033,7 +1032,7 @@ body {
     grid-template-rows: 12vh;
     align-items: flex-start;
     padding-top: 5vh;
-    height: 15vh;
+    height: 13vh;
   }
 
   .grid-vlak {
@@ -1488,7 +1487,20 @@ input {
 #arrangement-button:hover {
   cursor: pointer;
 }
+
+/* HOME PAGINA */
+
+.home-ontdenk-ons {
+  background-color: red;
+  height: 10vh;
 }
+
+.general-logo {
+  display: none;
+}
+
+}
+
 
 
 @media screen and (min-width: 481px) and (max-width: 768px){
@@ -1525,6 +1537,9 @@ input {
     width: 50vw;
   }
   
+  .reviews {
+    display: none;
+  }
 
 
   #menu-hoofd {
@@ -2198,6 +2213,26 @@ input {
       #arrangement-button:hover {
         cursor: pointer;
       }
+
+      /* HOME PAGINA */
+
+    .home-text-ontdenk-ons {
+      width: 40vw;
+      height: auto;
+    }
+
+    .home-img-ontdenk-ons {
+      width: 30vw;
+    }
+
+    .general-man-aan-tafel {
+      width: 30vw;
+      display: flex;
+    }
+
+    .general-logo {
+      display: none;
+    }
     }
 
 @media screen and (min-width: 769px){
@@ -2477,7 +2512,7 @@ input {
     grid-template-rows: 12vh;
     align-items: flex-start;
     padding-top: 5vh;
-    height: 15vh;
+    height: 30vh;
   }
 
   .grid-vlak {
@@ -2838,6 +2873,8 @@ input {
     width: 7vw;
   }
   
+  
+
   .about-denhaag {
     display: flex;
   }
@@ -2880,6 +2917,15 @@ input {
   
   #reviews-text {
     width: 50%;
+  }
+
+  #reviews-text2 {
+    width: 15%;
+    border-bottom: 1px solid black;
+  }
+
+  #reviews-text2:hover {
+    cursor:pointer
   }
   
   #reviews-div1 {
