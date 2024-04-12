@@ -8,7 +8,7 @@
             <a href="gallery.php">Gallery</a>
             <a href="form.php">Reserveren</a>
             <a href="vacature.php">Vacatures</a>
-            <a href="arrangementen.php">Reviews</a>
+            <a href="arrangementen.php">Arrangementen</a>
         </nav>
         <article class="dropdown">
             <button onclick="myDropdownfunction()" class="dropbtn" id="knop"><i class="fa fa-bars"></i></button>
@@ -19,7 +19,7 @@
                 <a href="gallery.php">Gallery</a>    
                 <a href="form.php">Reserveren</a>
                 <a href="vacature.php">Vacatures</a>
-                <a href="arrangementen.php">Reviews</a>
+                <a href="arrangementen.php">Arrangementen</a>
             </article>
         </article>
     </article>
