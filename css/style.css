@@ -1,0 +1,3214 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+HTML,body { 
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-color-normal: white;
+  --main-background-color: white;
+  --secondary: #2F4763;
+  --accent: #57A647;
+  --accent-twee: #E89C31; 
+  --text-kleur: black;
+  --text-font-normal: 'Josefin Slab', serif;
+  --form-color: linear-gradient(135deg, #F3BA6A, #83D273);
+  --button-kleur: #F3BA6A;
+}
+
+.iconpng {
+  width: 3vw;
+}
+
+.review-text {
+  display: flex;
+  align-items: center;
+}
+
+#review-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2vw;
+}
+
+#vacature-form {
+  width: 100%;
+}
+
+.selectfunctie {
+  height: 50%;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background-color: white;
+  font-family: var(--text-font-normal);
+}
+
+.filebutton {
+  background-color: white;
+}
+
+#vacature-form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-rows: 70vh 75vh 70vh 75vh 77.5vh;
+}
+
+.home-ontdek-ons {
+  grid-row: 1, 3;
+}
+
+.home-slideshow {
+  grid-area: 2 / 1;
+}
+
+#home-fill-image {
+  grid-area: 4 / 1;
+}
+
+#grid-container2 {
+  display: grid;
+  grid-template-rows: 20vh 77.5vh 75vh 80.5vh 75.5vh 60.5vh;
+}
+
+#about-main-text {
+  grid-area: 1 / 1;
+}
+
+.about-chef {
+  grid-area: 2 / 1;
+}
+
+#about-fill-image {
+  grid-area: 3 / 1;
+}
+
+#about-vestigingen {
+  grid-area: 4 / 1;
+}
+
+#about-video {
+  grid-area: 5 / 1;
+}
+
+#about-reviews {
+  grid-area: 6 / 1;
+}
+
+#menu-hoofd {
+  background-image: url(../img/header/header.png);
+  background-size: cover;
+  height: 75vh;
+}
+
+#header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+#header-background {
+  height: 60vh;
+}
+
+.home-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin-right: 2vw;
+}
+
+.home-nav a {
+  font-family: var(--text-font-normal);
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--text-color-normal);
+}
+
+.home-nav a:hover{
+  border-bottom: 2px solid white;
+}
+
+.header-icon {
+  width: 100px;
+  height: 100px;
+  margin-left: 2vw;
+}
+
+#knop {
+  display: none;
+}
+
+#header-background {
+  display: flex;
+  justify-content: center;
+}
+
+#header-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10vh;
+  width: 60%;
+  height: 40%;
+}
+
+#header-title{
+  display: flex;
+  color: var(--text-color-normal);
+  font-family: var(--text-font-normal);
+  font-weight: bold;
+  font-size: 100px;
+  margin: 0;
+  justify-content: center;
+}
+
+#header-slogan {
+  display: flex;
+  color: var(--text-color-normal);
+  font-family: var(--text-font-normal);
+  font-size: 30px;
+  margin: 0;
+  justify-content: center;
+}
+
+.header-bar {
+  height: 0.3vh;
+  width: 20vw;
+  background-color: var(--accent);
+  margin-top: 1vh;
+}
+
+#menu-main{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 60vh 160vh 80vh;
+}
+
+#alinea-1 {
+  display: grid;
+  grid-template-columns: 80%;
+  grid-template-rows: 60vh;
+  grid-area: 1 / 1;
+  align-content: center;
+  height: 60vh;
+}
+
+.vak-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+
+.titel {
+  font-size: 3.4em; 
+  font-family: var(--text-font-normal);
+  font-weight: bolder;
+  color: var(--text-kleur);
+  margin: 0;
+}
+
+.titel2 {
+  font-size: 3.4em; 
+  font-family: var(--text-font-normal);
+  color: var(--text-color-normal);
+  height: 10vh;
+  margin: 0;
+}
+
+.streep {
+  height: 0.4vh;
+  width: 3vw;
+  background-color: var(--accent-twee);
+}
+
+.streep-2 {
+  height: 0.4vh;
+  width: 3vw;
+  background-color: var(--accent);
+}
+
+
+
+.tekst {
+  font-family: var(--text-font-normal);
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 0;
+}
+
+.tekst-2 {
+  font-family: var(--text-font-normal);
+  font-size: 1.4rem;
+  margin: 0;
+  margin-top: 3vh;
+}
+
+#alinea-2 {
+  display: flex;
+  justify-content: center;
+  grid-area: 2 / 1;
+  align-items: center;
+  padding-bottom: 40px;
+  /*min-height: 130vh;*/
+  background-image: url(../img/menu/restaurant-menu.png);
+  background-size: cover;
+}
+
+.streep-vak {
+  margin-left: 2vw;
+}
+
+.vak-2 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 90%;
+}
+
+.vak-3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 350px;
+  padding-top: 40px;
+  height: 100vh;
+}
+
+.gerechten {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 300px;
+  width: 500px;
+  background-image: url(../img/menu/voorgerecht.png);
+  background-size: cover;
+}
+
+.gerechten-2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 300px;
+  width: 500px;
+  background-image: url(../img/menu/hoofdgerecht.png);
+  background-size: cover;
+}
+
+.gerechten-3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 300px;
+  width: 500px;
+  background-image: url(../img/menu/dessert.png);
+  background-size: cover;
+}
+
+.gerechten-4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 300px;
+  width: 500px;
+  background-image: url(../img/menu/drank.png);
+  background-size: cover;
+}
+
+.driehoek {
+  height: 0;
+  width: 0;
+  border-top: 90px solid transparent;
+  border-left: 500px solid #E89C31;
+}
+
+.gerecht-info {
+  font-family: var(--text-font-normal);
+  position: relative;
+  top: -103px;
+  right: 490px;
+  font-size: 1.75em;
+  color: var(--text-color-normal);
+}
+
+#alinea-3 {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  grid-template-rows: 60vh;
+  grid-area: 3 / 1;
+  justify-content: center;
+  align-content: center;
+  height: 70vh; 
+}
+
+#menu-voet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 600px;
+  background-color: var(--secondary);
+}
+
+.grid-vlak {
+  grid-area: 1 / 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-vlak2 {
+  grid-area: 1 / 2;
+}
+
+.grid-vlak3 {
+  grid-area: 1 / 3;
+}
+
+.menu-boxen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  height: 25vh;
+  width: 28vw;
+}
+
+.menu-kop {
+  font-size: 2em; 
+  font-family: var(--text-font-normal);
+  font-weight: bolder;
+  color: var(--text-color-normal);
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.menu-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 20vw;
+}
+
+.menu-flex-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+}
+
+.menu-tekst {
+    font-family: var(--text-font-normal);
+    font-size: 1.7rem;
+    color: var(--text-color-normal);
+    text-align: center;
+    margin: 0;
+}
+
+
+
+/* ///GALLERY PAGE */
+
+#gallery-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  min-height: 120vh;
+}
+
+#gallery-vak {
+  width: 12vw;
+}
+
+#gallery-grid {
+  display: grid;
+  grid-template-columns: 20vw 20vw 22vw;
+  grid-template-rows: 38vh 38vh 38vh 38vh;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+#grid-item-1 {
+  grid-column: 1 / 3;
+  grid-row: 1;
+  background-image: url(../img/gallery/foto1.jpg);
+  background-size: cover;
+}
+
+#grid-item-2 {
+  grid-column: 3;
+  grid-row: 1;
+  background-image: url(../img/gallery/foto2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#grid-item-3 {
+  grid-column: 1;
+  grid-row: 2;
+  background-image: url(../img/gallery/foto3.jpg);
+  background-size: cover;
+}
+
+#grid-item-4 {
+  grid-column: 2;
+  grid-row: 2;
+  background-image: url(../img/gallery/foto4.jpg);
+  background-size: cover;
+}
+
+#grid-item-5 {
+  grid-column: 3;
+  grid-row: 2;
+  background-image: url(../img/gallery/foto5.jpg);
+  background-size: cover;
+}
+
+#grid-item-6 {
+  grid-column: 1;
+  grid-row: 3 / 5;
+  background-image: url(../img/gallery/chef.jpg);
+  background-size: cover;
+}
+
+#grid-item-7 {
+  grid-column: 2;
+  grid-row: 3;
+  width: 22vw;
+  background-image: url(../img/gallery/foto6.jpg);
+  background-size: cover;
+}
+
+#grid-item-8 {
+  grid-column: 3;
+  grid-row: 3;
+  margin-left: 30px;
+  background-image: url(../img/gallery/foto7.jpg);
+  background-size: cover;
+}
+
+#grid-item-9 {
+  grid-column: 2;
+  grid-row: 4;
+  background-image: url(../img/gallery/foto8.jpg);
+  background-size: cover;
+}
+
+#grid-item-10 {
+  grid-column: 3;
+  grid-row: 4;
+  background-image: url(../img/gallery/foto9.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+body {
+  background-color: var(--main-background-collor);
+}
+
+.home-ontdek-ons {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  width: 100%;
+  align-items: center;
+  font-family: var(--text-font-normal);
+  padding-bottom: 50px;
+}
+
+.about-chef {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  width: 100%;
+  align-items: center;
+  font-family: var(--text-font-normal);
+  padding-bottom: 50px;
+}
+
+.home-text-ontdenk-ons {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 40vw;
+  gap: 20px;
+}
+
+.home-img-ontdenk-ons {
+  display: flex;
+  height: 40vh;
+  /* background-color: red; */
+  gap: 20px;
+}
+
+.general-bar {
+  height: 0.3vh;
+  width: 4vw;
+  background-color: var(--accent-twee);
+  margin-top: 1vh;
+  margin: 0;
+}
+
+.home-titel-ontdenk-ons {
+  font-weight: bold;
+  font-size: 3vw;
+  margin: 0;
+}
+
+.general-logo {
+  width: 60px;
+  margin-top: 100px;
+}
+
+.home-info-text {
+  width: 26vw;
+  font-size: 25px;
+  margin: 0;
+  height: 3vw;
+}
+
+.home-info-text2 {
+  width: 31vw;
+  font-size: 25px;
+  margin: 0;
+}
+
+.home-paragraph1 {
+  display: flex;
+  height: 40vh;
+  width: 100%;
+  justify-content: space-evenly;
+  font-family: var(--text-font-normal);
+  /* background-color: yellow; */
+}
+
+/* Paragraph 4 */
+
+#home-fill-image {
+  width: 100%;
+}
+
+#image-filler {
+  width: 100%;
+  height: 75vh;
+}
+
+
+
+/* Slideshow */
+.home-slideshow {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+  display: none;
+}
+
+.taco {
+  background-image: url(../img/slideshowtaco2.png);
+}
+
+.loempia {
+  background-image: url(../img/slideshowloempia2.png);
+}
+
+.ijs {
+  background-image: url(../img/slideshowijs2.png);
+}
+.transparent-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  font-family: var(--text-font-normal);
+  font-weight: bolder;
+  padding: 10px;
+  font-size: 8em;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+
+/* About */
+
+#about-main-text {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--text-font-normal);
+  font-weight: bolder;
+  font-size: 3em;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-about-text {
+  margin: 0;
+}
+
+.home-bar {
+  height: 0.3vh;
+  width: 4vw;
+  background-color: var(--accent);
+  margin-top: 1vh;
+  margin-left: -8vw;
+}
+
+#about-fill-image {
+  width: 100%;
+  height: 75vh;
+  background-color: red;
+  background-image: url(../img/restaurantblur.PNG);
+  background-size: cover;
+  background-position: center;
+}
+
+#about-fill-image {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--text-font-normal);
+  color: var(--text-color-normal)
+}
+
+#about-onstaan-title {
+  font-weight: bolder;
+  font-size: 5em;
+  margin: 0;
+}
+
+#about-onstaan {
+  display: flex;
+  height: 75vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-onstaat-text {
+  font-size: 3.3em;
+}
+
+#about-onstaat-grote-text {
+  display: flex;
+  width: 67%;
+}
+
+.about-bar {
+  height: 0.3vh;
+  width: 4vw;
+  background-color: var(--accent);
+  margin-top: 1vh;
+  margin-left: -12.5vw;
+}
+
+.about-vestigingen-pin {
+  width: 7vw;
+}
+
+.about-denhaag {
+  display: flex;
+}
+
+#about-vestigingen {
+  font-family: var(--text-font-normal);
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#about-vestigingen-map {
+  width: 30vw;
+}
+
+.vestigingen-bar {
+  height: 0.3vh;
+  width: 2vw;
+  background-color: var(--accent);
+}
+
+#about-video {
+  height: 75vh;
+  background-color: red;
+}
+
+#about-video2 {
+  width: 100%;
+  height: 75vh;
+}
+
+#about-reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+  font-family: var(--text-font-normal);
+  font-size: 1.4em;
+}
+
+#reviews-text {
+  width: 50%;
+}
+
+#reviews-div1 {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+#reviews-div2 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.reviews {
+  height: 15vh;
+}
+
+.about-vestigingen-title-text {
+  margin-bottom: 0.5vh;
+}
+
+.about-reviews-title-text {
+  margin-bottom: 0.5vh;
+  font-size: 3em;
+}
+
+.dropbtn {
+  display: none;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+#toestemming {
+  width: 1vw;
+}
+
+#popUp:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  /* Telefoon Vacature / Review Pagina */
+  
+  .home-text-ontdenk-ons {
+    width: 75vw;
+    margin-bottom: -0px;
+  }
+
+  .home-titel-ontdenk-ons {
+    font-size: 40px;
+  } 
+
+  .general-man-aan-tafel {
+    display: none;
+  }
+
+  .planten-en-licht {
+    display: none;
+  }
+
+  .review-text {
+    font-size: 4px;
+  }
+
+  .home-info-text {
+    font-size: 23px;
+    width: 75vw;
+    height: 1vh;
+  }
+
+  .home-ontdek-ons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reviews-text {
+    margin-left: 20px;
+  }
+
+  .home-info-text2 {
+    width: 75vw;
+    font-size: 17px;
+    margin: 0;
+    margin-bottom: -100px;
+  }
+
+
+
+  /* TELEFOON CSS MENU PAGE */
+
+
+  #menu-hoofd {
+    display: grid;
+    height: 25vh;
+    width: 100%;
+  }
+
+  #header-nav {
+    height: 8vh;
+  }
+
+  #knop {
+    display: flex;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    margin-right: 3vw;
+  }
+
+  .fa-bars {
+    color: white;
+  }
+
+  #header-background {
+    justify-content: center;
+    margin-top: 1vh;
+    height: 17vh;
+  }
+
+  .home-nav {
+    display: none;
+    width: 0%;
+  }
+
+  .header-icon{
+    height: 60px;
+    width: 60px;
+  }
+
+  #header-title {
+    font-size: 2.5em;
+  }
+
+  #header-slogan {
+    font-size: 0.9em;
+  }
+
+  .header-bar {
+    width: 35vw;
+  }
+
+  #header-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: 10vh;
+  }
+
+  #menu-main{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 45vh 120vh 60vh;
+  }
+
+  #alinea-1 {
+    height: 43vh;
+    grid-area: 1 / 1;
+  }
+
+  .titel {
+    font-size: 2.5em;
+  }
+
+  .titel2 {
+    font-size: 2em;
+    height: 4vh;
+  }
+
+  .tekst {
+    font-size: 1em;
+  }
+
+  .tekst-2 {
+    font-size: 1em;
+  }
+
+  .sub-vak {
+    width: 80%;
+  }
+
+  .streep {
+    width: 6vw;
+  }
+
+  .streep-2 {
+    width: 6vw;
+  }
+
+  #alinea-2 {
+    grid-area: 2 / 1;
+    min-height: 118vh;
+    padding-bottom: 20px;
+  }
+
+  .vak-2 {
+    height: 110vh;
+    justify-content: center;
+    width: 350px;
+  }
+
+  .gerechten {
+    height: 200px;
+    width: 350px;
+  }
+
+  .gerechten-2 {
+    height: 200px;
+    width: 350px;
+  }
+
+  .gerechten-3 {
+    height: 200px;
+    width: 350px;
+  }
+
+  .gerechten-4 {
+    height: 200px;
+    width: 350px;
+  }
+
+  .driehoek {
+    border-left: 350px solid #E89C31;
+  }
+
+  .gerecht-info {
+    top: -99px;
+    right: 340px;
+  }
+
+  #alinea-3 {
+    display: flex;
+    grid-area: 3 / 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60vh;
+  }
+
+  #vak-4 {
+    height: 25vh;
+    width: 80%;
+  }
+  #allergenen-foto {
+    height: 30vh;
+  }
+
+  #menu-voet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 12vh;
+    align-items: flex-start;
+    padding-top: 5vh;
+    height: 15vh;
+  }
+
+  .grid-vlak {
+    grid-area: 1 / 1;
+  }
+
+  .grid-vlak2 {
+    grid-area: 1 / 2;
+  }
+
+  .grid-vlak3 {
+    grid-area: 1 / 3;
+  }
+
+  .menu-boxen {
+    display: flex;
+    height: 10vh;
+    gap: 10px;
+  }
+
+  .menu-kop {
+    font-size: 1.2em;
+  }
+
+  .menu-tekst {
+    font-size: 0.8em;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .socials {
+    height: 15px;
+    width: 15px;
+  }
+
+  /* GALLERY PAGE */
+#gallery-page {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+#gallery-vak {
+  width: 25vw;
+}
+
+#gallery-grid {
+  display: grid;
+  grid-template-columns: 45vw 45vw;
+  grid-template-rows: 15vh 18vh 18vh 18vh 18vh 18vh;
+  column-gap: 8px;
+  row-gap: 8px;
+}
+
+#grid-item-1 {
+  grid-column: 1 / 3;
+  grid-row: 6;
+  background-image: url(../img/gallery/foto1.jpg);
+  background-size: cover;
+}
+
+#grid-item-2 {
+  grid-column: 2;
+  grid-row: 1;
+  background-image: url(../img/gallery/foto2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 10vw;
+}
+
+#grid-item-3 {
+  grid-column: 1;
+  grid-row: 2;
+  background-image: url(../img/gallery/foto3.jpg);
+  background-size: cover;
+}
+
+#grid-item-4 {
+  grid-column: 2;
+  grid-row: 2;
+  background-image: url(../img/gallery/foto4.jpg);
+  background-size: cover;
+}
+
+#grid-item-5 {
+  grid-column: 1;
+  grid-row: 3;
+  background-image: url(../img/gallery/foto5.jpg);
+  background-size: cover;
+}
+
+#grid-item-6 {
+  grid-column: 1;
+  grid-row: 4 / 6;
+  background-image: url(../img/gallery/chef.jpg);
+  background-size: cover;
+}
+
+#grid-item-7 {
+  grid-column: 2;
+  grid-row: 3;
+  width: 100%;
+  background-image: url(../img/gallery/foto6.jpg);
+  background-size: cover;
+}
+
+#grid-item-8 {
+  grid-column: 2;
+  grid-row: 5;
+  margin: 0;
+  background-image: url(../img/gallery/foto7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#grid-item-9 {
+  grid-column: 2;
+  grid-row: 4;
+  background-image: url(../img/gallery/foto8.jpg);
+  background-size: cover;
+}
+
+#grid-item-10 {
+  grid-column: 1;
+  grid-row: 1;
+  background-image: url(../img/gallery/foto9.jpg);
+  width: 55vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.dropbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 20px;
+  background-color: white;
+  min-width: 100px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 0.75rem;
+  color: black;
+  padding: 6px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {
+  display:block;
+}
+
+#form {
+  font-family: var(--text-font-normal);
+  display: flex;
+  min-height: 160vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#form2 {
+  font-family: var(--text-font-normal);
+  display: flex;
+  min-height: 160vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: red;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  background: var(--form-color);
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+.container-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.container-title2 {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.container form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+.container .user-details {
+  display: flex;
+  justify-content: center;
+}
+
+form .user-details .input {
+  margin-bottom: 15px;
+}
+
+.user-details .input input {
+  height: 45px;
+  width: 94%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.user-details .input .details {
+  display: block;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+form .reserveer {
+  height: 45px;
+  margin: 45px 0;
+}
+
+form .reserveer input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: var(--button-kleur);
+}
+
+::placeholder {
+  font-family: var(--text-font-normal);
+}
+
+.openingstijdenform {
+  padding-top: -2px;
+}
+
+.form-bar {
+  height: 0.35vh;
+  width: 6.4vw;
+  background: var(--form-color);
+  margin-top: 1vh;
+  margin: 0;
+}
+
+.details {
+  font-size: 18px;
+}
+
+#tijdenform {
+  font-size: 12.5px;
+}
+
+input {
+  font-family: var(--text-font-normal);
+}
+
+/* DRANKEN PAGINA */
+
+#dranken-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 190vh; 
+}
+
+#drankkaart {
+  height: 180vh;
+  width: 80%;
+  background-color: var(--accent);
+}
+
+#drankhoofd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: var(--accent);
+  border-bottom: 1px solid black;
+}
+
+#drankhoofd-kop {
+  color: var(--text-color-normal);
+  font-family: var(--text-font-normal);
+  font-weight: bold;
+  font-size: 3em;
+  margin: 0;
+}
+
+.drankhoofd-tekst {
+  margin: 0;
+}
+
+#drankenvak {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 110vh;
+
+}
+
+.drankenbox {
+  height: 110vh;
+  width: 90%;
+}
+
+.drankjes {
+  font-family: var(--text-font-normal);
+  font-weight: bolder;
+  font-size: 1.5em;
+  margin-bottom: 1px;
+}
+
+.drinken {
+  display: flex;
+  justify-content: space-between;
+}
+
+.end {
+  margin-bottom: 2vh;
+}
+
+.drink-tekst {
+  font-family: var(--text-font-normal);
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.ending {
+  margin-bottom: 2.5vh;
+}
+
+#arrangementen-main {
+  display: grid;
+  grid-template-columns: 75%;
+  grid-template-rows: 15vh 105vh 105vh 105vh;
+  justify-content: center;
+  gap: 100px;
+  height: 390vh;
+}
+
+#arrangement  -hoofd {
+  margin-bottom: 0px;
+}
+
+#arrangement-hoofd-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--text-font-normal);
+  font-size: 2.5em;
+}
+
+.arrangement-1 {
+  display: flex;
+  flex-direction: column;
+  grid-area: 2 / 1;
+  background-color: var(--accent-twee);
+}
+
+.arrangement-2 {
+  grid-area: 3 / 1;
+  background-color: var(--secondary);
+}
+
+.arrangement-3 {
+  grid-area: 4 / 1;
+  background-color: var(--accent);
+} 
+
+.arrangement-info {
+  padding-top: 3.5vh;
+  padding-left: 2vw;
+  height: 90vh;
+}
+
+.arrangement-knop {
+  height: 10vh;
+}
+
+.color-one {
+  background-color: var(--accent-twee);
+}
+
+.color-two {
+  background-color: var(--secondary);
+}
+
+.color-three {
+  background-color: var(--accent);
+}
+.arrangement-kopje {
+  font-size: 3em;
+  font-family: var(--text-font-normal);
+  font-weight: bold;
+  margin: 0;
+}
+
+.arrangementen-lijst {
+  font-size: 1.5em;
+  font-family: var(--text-font-normal);
+  width: 50vw
+}
+
+.arrangement-knop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#arrangement-button {
+  border: none;
+  padding: 15px 32px;
+  font-size: 1.4em;
+  font-family: var(--text-font-normal);
+}
+
+#arrangement-button:hover {
+  cursor: pointer;
+}
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+  .home-text-ontdenk-ons {
+    width: 23vw;
+  }
+
+  .review-text {
+    font-size: 20px;
+  }
+
+  .home-info-text {
+    font-size: 23px;
+  }
+
+  .planten-en-licht {
+    display: none;
+  }
+
+  .general-man-aan-tafel {
+    display: none;
+  }
+
+  .afbeelding-vacature-block {
+    display: block;
+  }
+
+  .container {
+    width: 75%;
+  }
+
+  .reviews-titel-text {
+    width: 50vw;
+  }
+  
+
+
+  #menu-hoofd {
+    background-position: center;
+    height: 35vh;
+  }
+
+  #header-nav {
+    height: 10vh;
+  }
+
+  #header-background {
+    align-items: flex-start;
+    height: 25vh;
+  }
+
+  .home-nav {
+    display: none;
+  }
+
+  #knop {
+    display: flex;
+    font-size: 40px;
+    border: none;
+    background-color: transparent;
+    margin-right: 3vw;
+  }
+
+  .fa-bars {
+    color: white;
+  }
+
+
+  .header-icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 2vw;
+  }
+  
+
+  
+  #header-background {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #header-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 20vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header-title{
+    display: flex;
+    color: var(--text-color-normal);
+    font-family: var(--text-font-normal);
+    font-weight: bold;
+    font-size: 4em;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  #header-slogan {
+    display: flex;
+    color: var(--text-color-normal);
+    font-family: var(--text-font-normal);
+    font-size: 30px;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .header-bar {
+    height: 0.3vh;
+    width: 39vw;
+    background-color: var(--accent);
+    margin-top: 1vh;
+  }
+  
+  #menu-main{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 67vh 160vh 80vh;
+  }
+  
+  #alinea-1 {
+    display: flex;
+    grid-area: 1 / 1;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+  }
+  
+  .vak-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 45vh;
+    width: 80%;
+  }
+  
+  
+  .titel {
+    font-size: 3.5em; 
+    font-family: var(--text-font-normal);
+    font-weight: bolder;
+    color: var(--text-kleur);
+    margin: 0;
+  }
+  
+  .titel2 {
+    font-size: 3.4em; 
+    font-family: var(--text-font-normal);
+    color: var(--text-color-normal);
+    height: 5vh;
+    margin: 0;
+  }
+  
+  .streep {
+    height: 0.4vh;
+    width: 3vw;
+    background-color: var(--accent-twee);
+  }
+  
+  .streep-2 {
+    height: 0.4vh;
+    width: 5vw;
+    background-color: var(--accent);
+  }
+  
+  .sub-vak {
+    width: 80%;
+  }
+  
+  .tekst {
+    font-family: var(--text-font-normal);
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .tekst-2 {
+    font-family: var(--text-font-normal);
+    font-size: 1.8rem;
+    margin: 0;
+    margin-top: 3vh;
+  }
+  
+  #alinea-2 {
+    display: flex;
+    grid-area: 2 / 1;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 155vh;
+    background-image: url(../img/menu/restaurant-menu.png);
+    background-size: cover;
+  }
+
+  .vak-2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8vh;
+    height: 80vh;
+    width: 80%;
+  }
+  
+  .vak-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px 350px;
+    padding-top: 40px;
+    height: 100vh;
+  }
+  
+  .gerechten {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 300px;
+    width: 600px;
+    background-image: url(../img/menu/voorgerecht.png);
+    background-size: cover;
+  }
+  
+  .gerechten-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 300px;
+    width: 600px;
+    background-image: url(../img/menu/hoofdgerecht.png);
+    background-size: cover;
+  }
+  
+  .gerechten-3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 300px;
+    width: 600px;
+    background-image: url(../img/menu/dessert.png);
+    background-size: cover;
+  }
+  
+  .gerechten-4 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 300px;
+    width: 600px;
+    background-image: url(../img/menu/drank.png);
+    background-size: cover;
+  }
+  
+  .driehoek {
+    height: 0;
+    width: 0;
+    border-top: 100px solid transparent;
+    border-left: 600px solid #E89C31;
+  }
+  
+  .gerecht-info {
+    font-family: var(--text-font-normal);
+    position: relative;
+    top: -140px;
+    right: 588px;
+    font-size: 2.5em;
+    color: var(--text-color-normal);
+  }
+
+  #alinea-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    grid-area: 3 / 1;
+    align-items: center;
+    height: 90vh; 
+  }
+  
+  #vak-4 {
+    padding-top: 1vh;
+    height: 40vh;
+    width: 70%;
+  }
+  
+  #allergenen-foto {
+    height: 30vh;
+  }
+  
+  #menu-voet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 5vh;
+    height: 25vh;
+    background-color: var(--secondary);
+  }
+
+  
+  .grid-vlak {
+    grid-area: 1 / 1;
+  }
+
+  .grid-vlak2 {
+    grid-area: 1 / 2;
+  }
+
+  .grid-vlak3 {
+    grid-area: 1 / 3;
+  }
+  
+  
+  .menu-boxen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    height: 25vh;
+    width: 28vw;
+  }
+  
+  .menu-kop {
+    font-size: 2em; 
+    font-family: var(--text-font-normal);
+    font-weight: bolder;
+    color: var(--text-color-normal);
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  
+  .menu-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 20vw;
+  }
+  
+  .menu-flex-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+  }
+  
+  .menu-tekst {
+      font-family: var(--text-font-normal);
+      font-size: 1.7rem;
+      color: var(--text-color-normal);
+      text-align: center;
+      margin: 0;
+  }
+
+  /* GALLERY PAGE */
+
+#gallery-page {
+  padding-top: 9vh;
+  padding-bottom: 9vh;
+}
+
+#gallery-grid {
+  display: grid;
+  grid-template-columns: 45vw 45vw;
+  grid-template-rows: 18vh 22vh 22vh 22vh 22vh 26vh;
+  column-gap: 8px;
+  row-gap: 8px;
+}
+
+#grid-item1{
+  background-position: center;
+}
+
+.dropbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 20px;
+  background-color: white;
+  min-width: 300px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 4rem;
+  color: black;
+  padding: 6px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {
+  display:block;
+}
+
+#form {
+  font-family: var(--text-font-normal);
+  display: flex;
+  min-height: 150vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+}
+
+
+#form2 {
+  font-family: var(--text-font-normal);
+  display: flex;
+  min-height: 70vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+}
+
+.container {
+  max-width: 700px;
+  width: 75%;
+  background: var(--form-color);
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+.container-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.container-title2 {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.container form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+.container .user-details {
+  display: flex;
+  justify-content: center;
+}
+
+form .user-details .input {
+  margin-bottom: 15px;
+}
+
+.user-details .input input {
+  height: 45px;
+  width: 94%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.user-details .input .details {
+  display: block;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+form .reserveer {
+  height: 45px;
+  margin: 45px 0;
+}
+
+form .reserveer input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: var(--button-kleur);
+}
+
+::placeholder {
+  font-family: var(--text-font-normal);
+}
+
+.openingstijdenform {
+  padding-top: -2px;
+}
+
+.form-bar {
+  height: 0.35vh;
+  width: 6.4vw;
+  background: var(--form-color);
+  margin-top: 1vh;
+  margin: 0;
+}
+
+.details {
+  font-size: 18px;
+}
+
+#tijdenform {
+  font-size: 12.5px;
+}
+
+input {
+  font-family: var(--text-font-normal);
+}
+
+#gridje {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0px;
+}
+
+  /*  DRANKEN PAGINA */
+
+  #dranken-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125vh;
+  }
+
+  #drankkaart {
+    height: 115vh;
+    width: 80%;
+    background-color: var(--accent);
+  }
+
+  #drankhoofd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: var(--accent);
+    border-bottom: 1px solid black;
+  }
+
+  #drankhoofd-kop {
+    color: var(--text-color-normal);
+    font-family: var(--text-font-normal);
+    font-weight: bold;
+    font-size: 5em;
+    margin: 0;
+  }
+
+  .drankhoofd-tekst {
+    margin: 0;
+  }
+
+  #drankenvak {
+    display: flex;
+    justify-content: space-evenly;
+    height: 70vh;
+
+  }
+
+  .drankenbox {
+    height: 70vh;
+    width: 40%;
+  }
+
+  .drankjes {
+    font-family: var(--text-font-normal);
+    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: 1px;
+  }
+
+  .drinken {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .end {
+    margin-bottom: 2vh;
+  }
+
+  .drink-tekst {
+    font-family: var(--text-font-normal);
+    font-size: 1.2em;
+    margin: 0;
+  }
+
+  .ending {
+    margin-bottom: 2.5vh;
+  }
+
+      /* ARRANGEMENTEN PAGINA */
+
+      #arrangementen-main {
+        display: grid;
+        grid-template-columns: 75%;
+        grid-template-rows: 30vh 103.5vh 103.5vh 103.5vh;
+        justify-content: center;
+        gap: 100px;
+        height: 400vh;
+      }
+    
+      #arrangement-hoofd-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--text-font-normal);
+        font-size: 3.5em;
+      }
+    
+      #arrangement-hoofd {
+        margin-bottom: 0px;
+      }
+      .arrangement-1 {
+        display: flex;
+        flex-direction: column;
+        grid-area: 2 / 1;
+        background-color: var(--accent-twee);
+      }
+    
+      .arrangement-2 {
+        grid-area: 3 / 1;
+        background-color: var(--secondary);
+      }
+    
+      .arrangement-3 {
+        grid-area: 4 / 1;
+        background-color: var(--accent);
+      } 
+    
+      .arrangement-info {
+        padding-top: 3.5vh;
+        padding-left: 2vw;
+        height: 90vh;
+      }
+    
+      .arrangement-knop {
+        height: 10vh;
+      }
+    
+      .color-one {
+        background-color: var(--accent-twee);
+      }
+    
+      .color-two {
+        background-color: var(--secondary);
+      }
+    
+      .color-three {
+        background-color: var(--accent);
+      }
+      .arrangement-kopje {
+        font-size: 3em;
+        font-family: var(--text-font-normal);
+        font-weight: bold;
+        margin: 0;
+      }
+    
+      .arrangementen-lijst {
+        font-size: 2em;
+        font-family: var(--text-font-normal);
+        width: 50vw
+      }
+    
+      .arrangement-knop {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 1vw;
+        padding-bottom: 1vh;
+      }
+    
+      #arrangement-button {
+        border: none;
+        padding: 15px 32px;
+        font-size: 1.4em;
+        font-family: var(--text-font-normal);
+      }
+    
+      #arrangement-button:hover {
+        cursor: pointer;
+      }
+    }
+
+@media screen and (min-width: 769px){
+  #menu-hoofd {
+    display: grid;
+    background-image: url(../img/header/header.png);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+  }
+  
+  #header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+  }
+  
+  #header-background {
+    height: 60vh;
+  }
+  
+  .home-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-right: 2vw;
+  }
+  
+  .home-nav a {
+    font-family: var(--text-font-normal);
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--text-color-normal);
+  }
+  
+  .home-nav a:hover{
+    border-bottom: 2px solid white;
+  }
+  
+  .header-icon {
+    width: 100px;
+    height: 100px;
+    margin-left: 2vw;
+  }
+  
+  #knop {
+    display: none;
+  }
+  
+  #header-background {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #header-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh;
+    width: 60%;
+    height: 40%;
+  }
+  
+  #header-title{
+    display: flex;
+    color: var(--text-color-normal);
+    font-family: var(--text-font-normal);
+    font-weight: bold;
+    font-size: 100px;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  #header-slogan {
+    display: flex;
+    color: var(--text-color-normal);
+    font-family: var(--text-font-normal);
+    font-size: 30px;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .header-bar {
+    height: 0.3vh;
+    width: 20vw;
+    background-color: var(--accent);
+    margin-top: 1vh;
+  }
+  
+  #menu-main{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 67vh 125vh 80vh;
+  }
+  
+  #alinea-1 {
+    display: flex;
+    grid-area: 1 / 1;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+  }
+  
+  .vak-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    grid-area: 1 / 1;
+  }
+  
+  
+  .titel {
+    font-size: 3.4em; 
+    font-family: var(--text-font-normal);
+    font-weight: bolder;
+    color: var(--text-kleur);
+    margin: 0;
+  }
+  
+  .titel2 {
+    font-size: 3.4em; 
+    font-family: var(--text-font-normal);
+    color: var(--text-color-normal);
+    height: 10vh;
+    margin: 0;
+  }
+  
+  .streep {
+    height: 0.4vh;
+    width: 3vw;
+    background-color: var(--accent-twee);
+  }
+  
+  .streep-2 {
+    height: 0.4vh;
+    width: 3vw;
+    background-color: var(--accent);
+  }
+  
+  
+  .tekst {
+    font-family: var(--text-font-normal);
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  
+  .tekst-2 {
+    font-family: var(--text-font-normal);
+    font-size: 1.4rem;
+    margin: 0;
+    margin-top: 3vh;
+  }
+  
+  .sub-vak {
+    width: 75%;
+  }
+
+  #alinea-2 {
+    display: flex;
+    grid-area: 2 / 1;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/menu/restaurant-menu.png);
+    background-size: cover;
+  }
+
+  .streep-vak {
+    margin-left: 2vw;
+  }
+  
+  .vak-2 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100%;
+    grid-template-rows: 10vh 90vh;
+    height: 100vh;
+    width: 95%;
+  }
+  
+  .vak-3 {
+    display: flex;
+    grid-area: 2 / 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 400px;
+    padding-top: 40px;
+    height: 100vh;
+  }
+  
+  .gerechten {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 300px;
+    width: 500px;
+    background-image: url(../img/menu/voorgerecht.png);
+    background-size: cover;
+  }
+  
+  .gerechten-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 300px;
+    width: 500px;
+    background-image: url(../img/menu/hoofdgerecht.png);
+    background-size: cover;
+  }
+  
+  .gerechten-3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 300px;
+    width: 500px;
+    background-image: url(../img/menu/dessert.png);
+    background-size: cover;
+  }
+  
+  .gerechten-4 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 300px;
+    width: 500px;
+    background-image: url(../img/menu/drank.png);
+    background-size: cover;
+  }
+  
+  .driehoek {
+    height: 0;
+    width: 0;
+    border-top: 90px solid transparent;
+    border-left: 500px solid #E89C31;
+  }
+  
+  .gerecht-info {
+    font-family: var(--text-font-normal);
+    position: relative;
+    top: -103px;
+    right: 490px;
+    font-size: 1.75em;
+    color: var(--text-color-normal);
+  }
+  
+  #alinea-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: 3 / 1;
+    align-items: center;
+  }
+  
+  #vak-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 1;
+    height: 60vh;
+    width: 60%;
+  }
+  
+  #allergenen-foto {
+    height: 20vh;
+  }
+  
+  #menu-voet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 12vh;
+    align-items: flex-start;
+    padding-top: 5vh;
+    height: 15vh;
+  }
+
+  .grid-vlak {
+    grid-area: 1 / 1;
+  }
+
+  .grid-vlak2 {
+    grid-area: 1 / 2;
+  }
+
+  .grid-vlak3 {
+    grid-area: 1 / 3;
+  }
+  
+  .menu-boxen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    height: 25vh;
+    width: 28vw;
+  }
+  
+  .menu-kop {
+    font-size: 2em; 
+    font-family: var(--text-font-normal);
+    font-weight: bolder;
+    color: var(--text-color-normal);
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  
+  .menu-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 20vw;
+  }
+  
+  .menu-flex-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+  }
+  
+  .menu-tekst {
+      font-family: var(--text-font-normal);
+      font-size: 1.7rem;
+      color: var(--text-color-normal);
+      text-align: center;
+      margin: 0;
+  }
+  
+  
+  
+  /* ///GALLERY PAGE */
+  
+  #gallery-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    min-height: 120vh;
+  }
+  
+  #gallery-vak {
+    width: 12vw;
+  }
+  
+  #gallery-grid {
+    display: grid;
+    grid-template-columns: 20vw 20vw 22vw;
+    grid-template-rows: 38vh 38vh 38vh 38vh;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  
+  #grid-item-1 {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background-image: url(../img/gallery/foto1.jpg);
+    background-size: cover;
+  }
+  
+  #grid-item-2 {
+    grid-column: 3;
+    grid-row: 1;
+    margin: 0;
+    background-image: url(../img/gallery/foto2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #grid-item-3 {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(../img/gallery/foto3.jpg);
+    background-size: cover;
+  }
+  
+  #grid-item-4 {
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url(../img/gallery/foto4.jpg);
+    background-size: cover;
+  }
+  
+  #grid-item-5 {
+    grid-column: 3;
+    grid-row: 2;
+    background-image: url(../img/gallery/foto5.jpg);
+    background-size: cover;
+  }
+  
+  #grid-item-6 {
+    grid-column: 1;
+    grid-row: 3 / 5;
+    background-image: url(../img/gallery/chef.jpg);
+    background-size: cover;
+  }
+  
+  #grid-item-7 {
+    grid-column: 2;
+    grid-row: 3;
+    width: 22vw;
+    background-image: url(../img/gallery/foto6.jpg);
+    background-size: cover;
+  }
+  
+  #grid-item-8 {
+    grid-column: 3;
+    grid-row: 3;
+    margin-left: 30px;
+    background-image: url(../img/gallery/foto7.jpg);
+    background-size: cover;
+  }
+  
+  #grid-item-9 {
+    grid-column: 2;
+    grid-row: 4;
+    background-image: url(../img/gallery/foto8.jpg);
+    background-size: cover;
+  }
+  
+  #grid-item-10 {
+    grid-column: 3;
+    grid-row: 4;
+    background-image: url(../img/gallery/foto9.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 22vw;
+  }
+  
+  
+  body {
+    background-color: var(--main-background-collor);
+  }
+  
+  .home-ontdek-ons {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    align-items: center;
+    font-family: var(--text-font-normal);
+    padding-bottom: 50px;
+  }
+
+  .about-chef {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    align-items: center;
+    font-family: var(--text-font-normal);
+    padding-bottom: 50px;
+  }
+  
+  .home-text-ontdenk-ons {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 27vw;
+    gap: 20px;
+  }
+  
+  .home-img-ontdenk-ons {
+    display: flex;
+    height: 40vh;
+    /* background-color: red; */
+    gap: 20px;
+  }
+  
+  .general-bar {
+    height: 0.3vh;
+    width: 4vw;
+    background-color: var(--accent-twee);
+    margin-top: 1vh;
+    margin: 0;
+  }
+  
+  .home-titel-ontdenk-ons {
+    font-weight: bold;
+    font-size: 3vw;
+    margin: 0;
+  }
+  
+  .general-logo {
+    width: 60px;
+  }
+  
+  .home-info-text {
+    width: 26vw;
+    font-size: 25px;
+    margin: 0;
+  }
+  
+  .home-info-text2 {
+    width: 31vw;
+    font-size: 25px;
+    margin: 0;
+  }
+  
+  .home-paragraph1 {
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    justify-content: space-evenly;
+    font-family: var(--text-font-normal);
+    /* background-color: yellow; */
+  }
+  
+  /* Paragraph 4 */
+  
+  #home-fill-image {
+    width: 100%;
+  }
+  
+  #image-filler {
+    width: 100%;
+    height: 75vh;
+  }
+  
+  
+  
+  /* Slideshow */
+  .home-slideshow {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    display: none;
+  }
+  
+  .taco {
+    background-image: url(../img/slideshowtaco2.png);
+  }
+  
+  .loempia {
+    background-image: url(../img/slideshowloempia2.png);
+  }
+  
+  .ijs {
+    background-image: url(../img/slideshowijs2.png);
+  }
+  .transparent-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    font-family: var(--text-font-normal);
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 8em;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+  }
+  
+  /* About */
+  
+  #about-main-text {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--text-font-normal);
+    font-weight: bolder;
+    font-size: 3em;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #about-about-text {
+    margin: 0;
+  }
+  
+  .home-bar {
+    height: 0.3vh;
+    width: 4vw;
+    background-color: var(--accent);
+    margin-top: 1vh;
+    margin-left: -8vw;
+  }
+  
+  #about-fill-image {
+    width: 100%;
+    height: 75vh;
+    background-color: red;
+    background-image: url(../img/restaurantblur.PNG);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #about-fill-image {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--text-font-normal);
+    color: var(--text-color-normal)
+  }
+  
+  #about-onstaan-title {
+    font-weight: bolder;
+    font-size: 5em;
+    margin: 0;
+  }
+  
+  #about-onstaan {
+    display: flex;
+    height: 75vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #about-onstaat-text {
+    font-size: 3.3em;
+  }
+  
+  #about-onstaat-grote-text {
+    display: flex;
+    width: 67%;
+  }
+  
+  .about-bar {
+    height: 0.3vh;
+    width: 4vw;
+    background-color: var(--accent);
+    margin-top: 1vh;
+    margin-left: -12.5vw;
+  }
+  
+  .about-vestigingen-pin {
+    width: 7vw;
+  }
+  
+  .about-denhaag {
+    display: flex;
+  }
+  
+  #about-vestigingen {
+    font-family: var(--text-font-normal);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  #about-vestigingen-map {
+    width: 30vw;
+  }
+  
+  .vestigingen-bar {
+    height: 0.3vh;
+    width: 2vw;
+    background-color: var(--accent);
+  }
+  
+  #about-video {
+    height: 75vh;
+    background-color: red;
+  }
+
+  
+  #about-reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+    font-family: var(--text-font-normal);
+    font-size: 1.4em;
+  }
+  
+  #reviews-text {
+    width: 50%;
+  }
+  
+  #reviews-div1 {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+  }
+  
+  #reviews-div2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .reviews {
+    height: 15vh;
+  }
+  
+  .about-vestigingen-title-text {
+    margin-bottom: 0.5vh;
+  }
+  
+  .about-reviews-title-text {
+    margin-bottom: 0.5vh;
+    font-size: 3em;
+  }
+  
+  .dropdown-content{
+    display: none;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  /* FORM PAGINA */
+  
+#form {
+  font-family: var(--text-font-normal);
+  display: flex;
+  min-height: 150vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+}
+
+#form2 {
+  font-family: var(--text-font-normal);
+  display: flex;
+  min-height: 70vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+}
+
+
+.container {
+  min-width: 50vw;
+  background: var(--form-color);
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+.container-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.container-title2 {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.container form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+.container .user-details {
+  display: flex;
+  justify-content: center;
+}
+
+form .user-details .input {
+  margin-bottom: 15px;
+}
+
+.user-details .input input {
+  height: 45px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.user-details .input .details {
+  display: block;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+form .reserveer {
+  height: 45px;
+  margin: 45px 0;
+}
+
+form .reserveer input {
+  height: 100%;
+  outline: none;
+  color: black;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: var(--button-kleur);
+}
+
+::placeholder {
+  font-family: var(--text-font-normal);
+}
+
+.openingstijdenform {
+  padding-top: -2px;
+}
+
+.form-bar {
+  height: 0.35vh;
+  width: 6.4vw;
+  background: var(--form-color);
+  margin-top: 1vh;
+  margin: 0;
+}
+
+.details {
+  font-size: 18px;
+}
+
+#tijdenform {
+  font-size: 12.5px;
+}
+
+input {
+  width: 20vw;
+  font-family: var(--text-font-normal);
+}
+
+#gridje {
+  display: grid;
+  grid-template-columns: 23.5vw 23.5vw;
+  grid-template-rows: 7vw 7vw 7vw 7vw 7vw;
+  gap: 0px;
+}
+
+.invul {
+  font-size: 100%;
+}
+
+.input {
+  width: 100%;
+}
+
+  /*  DRANKEN PAGINA */
+
+  #dranken-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+  }
+
+  #drankkaart {
+    min-height: 87vh;
+    width: 80%;
+    background-color: var(--accent);
+  }
+
+  #drankhoofd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: var(--accent);
+    border-bottom: 1px solid black;
+  }
+
+  #drankhoofd-kop {
+    color: var(--text-color-normal);
+    font-family: var(--text-font-normal);
+    font-weight: bold;
+    font-size: 5em;
+    margin: 0;
+  }
+
+  .drankhoofd-tekst {
+    margin: 0;
+  }
+
+  #drankenvak {
+    display: flex;
+    justify-content: space-evenly;
+    height: 87vh;
+
+  }
+
+  .drankenbox {
+    height: 87vh;
+    width: 40%;
+  }
+
+  .drankjes {
+    font-family: var(--text-font-normal);
+    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: 1px;
+  }
+
+  .drinken {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .end {
+    margin-bottom: 2vh;
+  }
+
+  .drink-tekst {
+    font-family: var(--text-font-normal);
+    font-size: 1.2em;
+    margin: 0;
+  }
+
+  .ending {
+    margin-bottom: 2.5vh;
+  }
+
+    /* ARRANGEMENTEN PAGINA */
+
+    #arrangementen-main {
+      display: grid;
+      grid-template-columns: 75%;
+      grid-template-rows: 20vh 52vh 52vh 52vh;
+      justify-content: center;
+      align-content: center;
+      gap: 100px;
+      height: 260vh;
+    }
+  
+    #arrangement-hoofd-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: var(--text-font-normal);
+      font-size: 3.5em;
+    }
+  
+    .arrangement-1 {
+      grid-area: 2 / 1;
+      background-color: var(--accent-twee);
+    }
+  
+    .arrangement-2 {
+      grid-area: 3 / 1;
+      background-color: var(--secondary);
+    }
+  
+    .arrangement-3 {
+      grid-area: 4 / 1;
+      background-color: var(--accent);
+    } 
+  
+    .arrangement-info {
+      padding-top: 3.5vh;
+      padding-left: 2vw;
+      height: 43vh;
+    }
+  
+    .arrangement-knop {
+      height: 9vh;
+    }
+  
+    .color-one {
+      background-color: var(--accent-twee);
+    }
+  
+    .color-two {
+      background-color: var(--secondary);
+    }
+  
+    .color-three {
+      background-color: var(--accent);
+    }
+    .arrangement-kopje {
+      font-size: 3em;
+      font-family: var(--text-font-normal);
+      font-weight: bold;
+      margin: 0;
+    }
+  
+    .arrangementen-lijst {
+      font-size: 2em;
+      font-family: var(--text-font-normal);
+      width: 50vw
+    }
+  
+    .arrangement-knop {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-right: 1vw;
+      padding-bottom: 1vh;
+    }
+  
+    #arrangement-button {
+      border: none;
+      padding: 15px 32px;
+      font-size: 1.4em;
+      font-family: var(--text-font-normal);
+    }
+  
+    #arrangement-button:hover {
+      cursor: pointer;
+    }
+  }
