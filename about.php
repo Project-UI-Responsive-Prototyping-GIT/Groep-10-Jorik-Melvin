@@ -74,7 +74,7 @@
     </div>
 </section>
 <section id="about-video" class="grid-item">
-    <video id="about-video2" controls autoplay> <source src="img/food.mp4" type="video/mp4"></video>
+    <video id="about-video2" controls> <source src="img/food.mp4" type="video/mp4"></video>
 </section>
 <section id="about-reviews" class="grid-item">
     <div id="reviews-div1">
