@@ -57,12 +57,16 @@ include 'header.php';
                         <input type="date" name="datum" placeholder="Test" required>
                     </article>
                     <article class="input">
-                        <p class="details">Tijd - Doordeweeks</p>
-                        <input type="time" name="doordeweekstijd" min="17:00" max="21:00" step="3600">
+                        <p class="details">Tijd</p>
+                        <input type="time" name="doordeweekstijd" min="15:00" max="23:00" step="3600">
                     </article>
                     <article class="input">
-                        <p class="details">Tijd - Weekend </p>
-                        <input type="time" name="weekendtijd" min="15:00" max="23:00" step="3600">
+                        <p class="details">Locatie </p>
+                        <select class="details input selectfunctie" id="cars" name="cars">
+                            <option value="volvo">Den Haag</option>
+                            <option value="saab">Utrecht</option>
+                            <option value="fiat">Breda</option>
+                        </select>
                     </article>
                     <p id="tijdenform" class=openingstijdenform><i>Doordeweeks:<br> 17:00 - 21:00. <br><br>Weekend:<br> 15:00 - 23:00.<br><br>Alle reserveringen die buiten onze tijden vallen worden automatisch ongeldig gemaakt zonder terugkoppeling<br><br>Problemen? Contacteer ons!</i></p>
                 </div>
